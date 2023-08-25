@@ -44,9 +44,9 @@ const Navbar = () => {
               color="black"
             />
           </div>
-          <div className=" relative">
+          <div className=" relative cursor-pointer">
             <AiOutlineShoppingCart size={25} />
-            <span className=" absolute -top-2 -right-4 bg-white px-2 text-black rounded-full">
+            <span className=" absolute -top-2.5 -right-3 bg-white px-2 rounded-full text-black ">
               0
             </span>
           </div>
