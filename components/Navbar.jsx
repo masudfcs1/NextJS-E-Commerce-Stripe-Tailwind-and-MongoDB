@@ -5,7 +5,7 @@ import { AiOutlineSearch, AiOutlineShoppingCart } from "react-icons/ai";
 
 const Navbar = () => {
   return (
-    <div className=" bg-teal-600 text-white h-[60px] w-full py-2 px-6 flex justify-center ">
+    <div className=" bg-black text-white h-[60px] w-full py-2 px-6 flex justify-center ">
       <div className=" h-full w-10/12 my-auto flex justify-between items-center">
         {/* left */}
         <h2>
@@ -46,7 +46,7 @@ const Navbar = () => {
           </div>
           <div className=" relative cursor-pointer">
             <AiOutlineShoppingCart size={25} />
-            <span className=" absolute -top-2.5 -right-3 bg-white px-2 rounded-full text-black ">
+            <span className=" w-full absolute -top-2.5 -right-3 bg-white px-2 rounded-full text-black ">
               0
             </span>
           </div>
